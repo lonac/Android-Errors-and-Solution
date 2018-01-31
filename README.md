@@ -2,7 +2,7 @@
 -Some problems I encountered during learning Android Apps Development and the solution i used
 
 ### Note
-a) I am using Ubuntu 16.04 on my computer<>
+a) I am using Ubuntu 16.04 on my computer</br>
 b) I have successfully installed Android studio
 
 **Problem 1:**
