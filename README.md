@@ -13,7 +13,24 @@ I got error says Insufficient permission for the device with ADB*
 Open *terminal and type the below command* </br>
 - $adb kill-server </br>
 - $sudo adb startserver </br>
-After that unplug the USB and plug it back
+After that unplug the USB and plug it back </br>
 
 
+**Problem 2:**
+> *Error:Unable to resolve dependency for ':app@releaseUnitTest/compileClasspath': Could not resolve com.android.support:design:26.0.0-beta1.
+<a href="openFile:/home/…../AndroidStudioProjects/Sandra/app/build.gradle">Open File</a><br><a href="Unable to resolve dependency for &#39;:app@releaseUnitTest/compileClasspath&#39;: Could not resolve com.android.support:design:26.0.0-beta1.">Show Details</a>*
+>
+**soln**</br>
+-Add the marven google url on dependence </br>
+``` 
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+} 
+```
 
