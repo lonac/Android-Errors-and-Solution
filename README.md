@@ -12,7 +12,7 @@ I got error says Insufficient permission for the device with ADB*
 **soln**</br>
 Open *terminal and type the below command* </br>
 - $adb kill-server </br>
-- $sudo adb startserver </br>
+- $sudo adb start-server </br>
 After that unplug the USB and plug it back </br>
 
 
